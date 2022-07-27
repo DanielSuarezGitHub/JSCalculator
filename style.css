@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: teal;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculator {
+    height: 564px;
+    width: 400px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.screen {
+    height: 25%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow:inset 3px 5px 5px black;
+    background-color: grey;
+}
+
+.user-input {
+    height: 25%;
+    width: 98%;
+    background-color: #212121;
+    opacity: 10%;
+}
+
+.answer {
+    height: 75%;
+    width: 98%;
+    background-color: #212121;
+    opacity: 10%;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    font-size: 1.5rem;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 3px black;
+    background-color: grey;
+    color: white;
+    transition: 0.1s;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 20px;
+}
+
+button:hover {
+   margin-top: -5px;
+   margin-bottom: 5px;
+   background-color: darkgray;
+}
+
+p{
+    text-align: right;
+    font-family: "Robto", sans-serif;
+    color: black;
+    font-size: larger;
+}
