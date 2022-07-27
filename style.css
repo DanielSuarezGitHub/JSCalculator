@@ -38,24 +38,31 @@ body, html{
     background-color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     border-radius: 8px;
     box-shadow:inset 3px 5px 5px black;
     background-color: grey;
+    font-family: 'Roboto', sans-serif;
 }
 
 .user-input {
-    height: 25%;
-    width: 98%;
-    background-color: #212121;
-    opacity: 10%;
+    height: 40%;
+    width: 90%;
+    color: black;
+    text-align: right;
+    font-size: 30px;
+    padding: 20px 10px 0 10px;
 }
 
 .answer {
-    height: 75%;
-    width: 98%;
-    background-color: #212121;
-    opacity: 10%;
+    height: 60%;
+    width: 90%;
+    color: black;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 30px 10px 0 10px;
 }
 
 button {
@@ -88,4 +95,8 @@ p{
     font-family: "Robto", sans-serif;
     color: black;
     font-size: larger;
+}
+
+span {
+    margin-left: 1rem;
 }
